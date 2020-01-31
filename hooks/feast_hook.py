@@ -18,7 +18,7 @@ class FeastHook(BaseHook):
 
     def get_conn(self):
         """
-        Initialize a mailchimp instance.
+        Initialize a Feast client.
         """
         if self.client:
             return self.client
